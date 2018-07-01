@@ -20,16 +20,18 @@ class Hobbies extends Component {
 		return (
 			<div>
 				<h2>Увлечения</h2>
-				<div className = 'input-group mb-3'>
-				  <input className = 'form-control' type = 'text' ref = {input => { this.inp = input } }/>
-				  <div className = 'input-group-append'>
-				    <button className = 'btn btn-success'
-							onClick = {() => this.add()}>Добавить</button>
-				  </div>
+				<div className = 'input-group mb-1'>
+				  <input className = 'form-control'
+				  		 type = 'text'
+						 ref = {input => { this.inp = input } }/>
 				</div>
+				<button className = 'btn btn-outline-success btn-block mb-2'
+						onClick = {() => this.add()}>Добавить</button>
+
+
 				{ this.props.hobbies.map((hobby, id) => 
 						<div key = {id}>
-							<p>{ hobby } <span className = 'badge badge-danger'
+							<p>{ hobby } <span  className = 'badge badge-danger float-right mt-2'
 												onClick = {(() => this.delete(id))}>Удалить</span></p>
 						</div> )}
 			</div>

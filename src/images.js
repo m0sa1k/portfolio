@@ -19,5 +19,5 @@ export default [{
 },{
 	imgPath : 'https://upload.wikimedia.org/wikipedia/ru/d/d3/Mysql.png'
 },{
-	imgPath : 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Apache_HTTP_server_logo_%282016%29.svg/1280px-Apache_HTTP_server_logo_%282016%29.svg.png'
+	imgPath : 'https://seeklogo.com/images/J/javascript-logo-E967E87D74-seeklogo.com.png'
 }];
